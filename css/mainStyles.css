@@ -1,3 +1,4 @@
+/* colors */
 :root {
     --color-1-main: #008891;
     --color-1-highlight: #169ca6;
@@ -8,12 +9,12 @@
     --color-4-main: #e7e7de;
     --color-5-main: #0f3057;
   }
-  
+  /* reset margin and padding */
   * {
     margin: 0;
     padding: 0;
   }
-
+/* reset font-size for easier values */
   html {
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -114,7 +115,7 @@
   .toggle #bottomline {
     transform: translateY(-9px) rotate(-45deg);
   }
-
+/* media query for hamburger menu */
   @media screen and (max-width: 768px) {
     .burger-menu {
       display: inline-block;
@@ -128,7 +129,7 @@
     padding: 0;
     margin: 0;
   }
-
+/* media query to hide nav list */
   @media screen and (max-width: 768px) {
     nav ul {
       display: none;
@@ -160,7 +161,7 @@
   ul a:hover {
     background-color: var(--color-1-highlight);
   }
-
+/* media query to change link highlighting */
   @media screen and (max-width: 768px) {
     ul a:hover {
       background-color: var(--color-2-main);
@@ -210,7 +211,7 @@
   .cta-btn:hover {
     background-color: var(--color-2-highlight);
   }
-  
+  /* media query to change welcome section layout */
   @media screen and (max-width: 768px) {
     #welcome-section {
       flex-direction: column;
@@ -301,8 +302,7 @@
   background-color: var(--color-2-main);
   color: var(--color-3-main);
 }
-
-
+/* media query to change h2 font size */
   @media screen and (max-width: 768px) {
     h2 {
       font-size: 3.2rem;
@@ -322,7 +322,7 @@
     flex-direction: row;
     justify-content: center;
   }
-
+/* media query to change social link layout */
   @media screen and (max-width: 768px) {
     .social-menu {
       flex-direction: column;
