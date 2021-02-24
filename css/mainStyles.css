@@ -1,6 +1,6 @@
 /* colors */
 :root {
-    --color-1-main: #008891;
+    --color-1-main: rgb(0, 136, 145);
     --color-1-highlight: #169ca6;
     --color-2-main: #373944;
     --color-2-highlight: #525252;
@@ -41,7 +41,7 @@
 
   h3 {
     font-size: 2.4rem;
-    font-weight: 400;
+    font-weight: 500;
     padding: 0.3334em 0;
   }
   
@@ -258,6 +258,7 @@
   }
 
   .project-tile img {
+    border-radius: 5px;
     display: inline-block;
     width: 100%;
   }
@@ -282,7 +283,7 @@
   width: 100px;
 }
 .preview-btn:hover {
-  background-color: var(--color-2-highlight);
+  background-color: var(--color-1-highlight);
 }
 
 .code-btn {
@@ -299,7 +300,8 @@
 }
 
 .code-btn:hover {
-  background-color: var(--color-2-main);
+  background-color: var(--color-2-highlight);
+  border-color: var(--color-2-highlight);
   color: var(--color-3-main);
 }
 /* media query to change h2 font size */
